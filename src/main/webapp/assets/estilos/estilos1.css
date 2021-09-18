@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-sep-2021, 18:53:34
+    Author     : PC_Daniel
+*/
+
+*{
+    margin: 20px; 
+    font-size: 30px; 
+}
+
+p {
+    color: magenta; 
+    font-size: 20px; 
+    font-family: sans-serif; 
+    background-color: black; 
+}
+
+.menu {
+    background-color: burlywood; 
+    text-align: center; 
+    font-size: 25px; 
+    height: 100px; 
+    width: 70%; 
+}
+
+table{
+    background-color: black; 
+    color: gray; 
+    height: 500px; 
+    width: 700px; 
+}
+
+#parrafo {
+    border: solid; 
+    border-color: black; 
+    border-radius: 20px; 
+}
+
+#final {
+    border-top: solid; 
+    border-top-color: balck; 
+}
