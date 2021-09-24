@@ -10,25 +10,33 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  
     </head>
     <body>
         <h1>INTEGRANDO BOOTSTRAP</h1>
         
         <div class="container">
-            <div style="border-style: solid;" class="row">
-                <div style="border-style: solid;" class="col"> <h2> Columna 1</h2> </div>
-                <div style="border-style: solid;" class="col-6"> <h2> Columna 2</h2> </div>
-                <div style="border-style: solid;" class="col"> <h2> Columna 3</h2> </div>
-                <div style="border-style: solid;" class="col"> <h2> Columna 4</h2> </div>
+            <header>
+               <div class="row">
+                    <div style="border-style: solid;" class="col"><h2> 1</h2></div>
+                    <div style="border-style: solid;" class="col"><h2> 2</h2></div>
+                    <div style="border-style: solid;" class="col-6"><h2> 3</h2></div>
+                    <div style="border-style: solid;" class="col"><h2> 4</h2></div>
+                </div> 
+            </header>
+            
+            <div class="row">
+                <div style="border-style: solid;" class="col-8 "><h2>Ancho fijo de 8</h2></div>
+                <div style="border-style: solid;" class="col-4"> <h2>Ancho fijo de 4</h2></div>
+            </div>
+            
+            <div class="row">
+                <div style="border-style: solid;" class="col"><h2>Columa 1</h2></div>
+                <div style="border-style: solid;" class="col"> <h2>Columna 2</h2></div>
+                <div style="border-style: solid;" class="col menu"> <h2>Columna 3</h2></div>
             </div>
         </div>
         
-        <div class="container">
-            <div style="border-style: solid;" class="row">
-                <div style="border-style: solid;" class="col-2"> <h2> Columna 1</h2> </div>
-                <div style="border-style: solid;" class="col"> <h2> Columna 2</h2> </div>
-            </div>
-        </div>
         <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
